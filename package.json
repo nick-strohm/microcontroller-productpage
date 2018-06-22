@@ -1,0 +1,25 @@
+{
+  "name": "microcontroller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/js/index.js",
+  "scripts": {
+    "vscode:install-npm": "code --install-extension eg2.vscode-npm-script && code --install-extension christian-kohler.npm-intellisense",
+    "vscode:install-ts": "npm install -g tslint typescript && code --install-extension eg2.tslint",
+    "vscode:install-scss": "code --install-extension ritwickdey.live-sass && code --install-extension mrmlnc.vscode-scss",
+    "vscode:install": "npm run vscode:install-npm && npm run vscode:install-ts && npm run vscode:install-scss",
+    
+    "install": "npm run vscode:install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-strohm/microcontroller-productpage.git"
+  },
+  "author": "Nick Strohm",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nick-strohm/microcontroller-productpage/issues"
+  },
+  "homepage": "https://github.com/nick-strohm/microcontroller-productpage#readme"
+}
